@@ -34,6 +34,7 @@ html {
     width: 80vw;
     left: 10vw;
     color: #969696;
+    visibility: hidden;
 }
 
 .aici-ma-laud{
