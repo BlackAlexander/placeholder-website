@@ -5,7 +5,12 @@
 html {
     text-align: center;
     color: #111111;
-    font-family: "Constantia", sans-serif;
+    font-family: "Lora", serif;
+}
+
+@font-face{
+    font-family: "Lora";
+    src: url("./Lora.ttf")
 }
 
 .background-container{
