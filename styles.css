@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    color: #111111;
+    font-family: "Constantia", sans-serif;
+}
+
+.background-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(0.5);
+}
+
+.halat-scump{
+    position: fixed;
+    /*background-color: darkorange;*/
+    bottom: 5vh;
+    width: 80vw;
+    left: 10vw;
+    color: #969696;
+}
+
+.aici-ma-laud{
+    position: fixed;
+    /*background-color: darkorange;*/
+    border-radius: 5px;
+    left: 10vw;
+    top: 32vh;
+    width: 80vw;
+    height: 10rem;
+    color: white;
+    font-size: 8rem;
+}
+
+
+@media only screen and (max-width: 670px){
+    .halat-scump{
+        visibility: hidden;
+    }
+    .aici-ma-laud{
+        top: 10vh;
+        line-height: 7rem;
+    }
+}
